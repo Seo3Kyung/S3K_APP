@@ -17,7 +17,7 @@ const BirthYearTemplate = () => {
     <div className="flex flex-col items-center justify-center min-h-screen px-4 sm:px-6">
       <div className="flex-1 w-full max-w-[15rem] flex flex-col items-center pt-28 sm:pt-32 overflow-y-auto pb-8">
         <div className="mb-4 sm:mb-6">
-          <StepIndicator current={3} total={4} />
+          <StepIndicator current={2} total={4} />
         </div>
 
         <h2 className="mt-4 sm:mt-6 text-xl sm:text-2xl font-semibold text-center text-black mb-6 sm:mb-8">

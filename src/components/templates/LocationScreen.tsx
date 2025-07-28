@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import LocationSearchForm from '../organisms/LocationSearchForm';
-import StepDots from '../molecules/StepDots';
+import StepIndicator from '../molecules/StepIndicator';
 import Button from '../atoms/Button';
 import BackHeader from '../molecules/BackHeader';
 
@@ -25,7 +25,7 @@ const LocationScreen: React.FC = () => {
     <div className="flex flex-col max-w-sm mx-auto px-6 pt-25 pb-[env(safe-area-inset-bottom)]">
       <BackHeader onBack={handleBack} />
       <div className="flex justify-center mt-8 mb-5">
-        <StepDots steps={4} current={3} />
+        <StepIndicator current={3} total={4} />
       </div>
 
       <div className="flex-1 overflow-y-auto">

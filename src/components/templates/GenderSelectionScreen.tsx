@@ -25,7 +25,7 @@ const GenderSelectionScreen: React.FC = () => {
       <div className="flex-1 w-full max-w-[15rem] flex flex-col items-center pt-28 sm:pt-32 overflow-y-auto pb-8">
         {/* 스텝 인디케이터 */}
         <div className="mb-4 sm:mb-6">
-          <StepIndicator current={2} total={4} />
+          <StepIndicator current={1} total={4} />
         </div>
 
         {/* 타이틀 */}
